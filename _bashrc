@@ -1,0 +1,10 @@
+#export 
+#PS1=[\u@\h \W]\$
+PROMPT_COMMAND='echo -ne "\033]0;${USER}@MacBook\007";'${PROMPT_COMMAND}
+
+HISTCONTROL=ignoreboth
+HISTTIMEFORMAT='%F %T '
+unset HISTFILESIZE
+export HISTSIZE=100000
+shopt -s histappend
+PROMPT_COMMAND='history -n; history -a;'${PROMPT_COMMAND}
