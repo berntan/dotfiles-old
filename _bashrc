@@ -8,3 +8,5 @@ unset HISTFILESIZE
 export HISTSIZE=100000
 shopt -s histappend
 PROMPT_COMMAND='history -n; history -a;'${PROMPT_COMMAND}
+
+source $HOME/.bash_aliases

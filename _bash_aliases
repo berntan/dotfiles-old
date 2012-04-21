@@ -1,0 +1,3 @@
+alias github-push='git push -u origin master'
+alias github-fetch='git fetch origin'
+alias github-merge='git merge origin/master'
