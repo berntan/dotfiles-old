@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/berntan/.vim'
-let g:netrw_dirhist_2='/Users/berntan/work/dsf-klient'
-let g:netrw_dirhist_3='/Users/berntan/work/scala/hello_scala/src/main/scala'
-let g:netrw_dirhist_4='/Users/berntan/work'
-let g:netrw_dirhist_5='/Users/berntan/work/wsimport-infotorg-dsf'
