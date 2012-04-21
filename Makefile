@@ -16,5 +16,6 @@ get_vimrc:
 	cp -r $(HOME)/.vim _vim
 
 get_bashrc:
-	cp $(BASHRC) _bashrc
+	cp $(HOME)/.bashrc _bashrc
 	cp $(HOME)/.bash_aliases _bash_aliases
+	cp $(HOME)/.bash_profile _bash_profile
