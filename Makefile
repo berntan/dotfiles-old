@@ -13,7 +13,7 @@ get: get_vimrc get_bashrc
 
 get_vimrc:
 	cp $(VIMRC) _vimrc
-	cp -r $(HOME)/.vim _vim
+	cp -R -H $(HOME)/.vim/ _vim
 
 get_bashrc:
 	cp $(HOME)/.bashrc _bashrc
