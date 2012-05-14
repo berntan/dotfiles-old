@@ -41,6 +41,7 @@
     set hidden " you can change buffers without saving
     " (XXX: #VIM/tpope warns the line below could break things)
     "set iskeyword+=_,$,@,%,# " none of these are word dividers
+    set iskeyword+=:,_
     set mouse=a " use mouse everywhere
     set noerrorbells " don't make noise
     set visualbell t_vb= " turn off error beep/flashes
